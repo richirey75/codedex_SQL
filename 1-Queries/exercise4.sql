@@ -22,7 +22,8 @@ WHERE year > 2020; -- This will select all columns from the shows table where th
 
 SELECT *
 FROM shows
-WHERE tomatometer < 60; 
+WHERE tomatometer < 60; -- This will select all columns from the shows table where the tomatometer rating is less than 60
+-- You can also use the 'AND' and 'OR' keywords to combine multiple conditions in the 'WHERE' clause
 
 
 
